@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC12438F212D9E8A00612CC8 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC12438E212D9E8A00612CC8 /* InfoViewController.swift */; };
 		AC400FBD212469BA000E024C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC400FBC212469BA000E024C /* AppDelegate.swift */; };
 		AC400FBF212469BA000E024C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC400FBE212469BA000E024C /* ViewController.swift */; };
 		AC400FC2212469BA000E024C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC400FC0212469BA000E024C /* Main.storyboard */; };
 		AC400FC4212469BB000E024C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC400FC3212469BB000E024C /* Assets.xcassets */; };
 		AC400FC7212469BB000E024C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC400FC5212469BB000E024C /* LaunchScreen.storyboard */; };
+		AC400FCF21246ADC000E024C /* AnimalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC400FCE21246ADC000E024C /* AnimalTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC12438E212D9E8A00612CC8 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		AC400FB9212469BA000E024C /* Exemplo2_TableViewTDS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exemplo2_TableViewTDS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC400FBC212469BA000E024C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC400FBE212469BA000E024C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		AC400FC3212469BB000E024C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC400FC6212469BB000E024C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC400FC8212469BB000E024C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC400FCE21246ADC000E024C /* AnimalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				AC400FBC212469BA000E024C /* AppDelegate.swift */,
 				AC400FBE212469BA000E024C /* ViewController.swift */,
 				AC400FC0212469BA000E024C /* Main.storyboard */,
+				AC12438E212D9E8A00612CC8 /* InfoViewController.swift */,
+				AC400FCE21246ADC000E024C /* AnimalTableViewController.swift */,
 				AC400FC3212469BB000E024C /* Assets.xcassets */,
 				AC400FC5212469BB000E024C /* LaunchScreen.storyboard */,
 				AC400FC8212469BB000E024C /* Info.plist */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC400FCF21246ADC000E024C /* AnimalTableViewController.swift in Sources */,
 				AC400FBF212469BA000E024C /* ViewController.swift in Sources */,
+				AC12438F212D9E8A00612CC8 /* InfoViewController.swift in Sources */,
 				AC400FBD212469BA000E024C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
